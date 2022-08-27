@@ -1,3 +1,4 @@
+package Exemplosbasicos;
 public class Exemplo002 {
     int soma(int a, int b){
         return a+b;

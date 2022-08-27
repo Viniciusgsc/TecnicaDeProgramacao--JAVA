@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch TesteConta",
+            "request": "launch",
+            "mainClass": "poo.TesteConta",
+            "projectName": "TecnicaDeProgramacao--JAVA_890c787"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exemplo004",
+            "request": "launch",
+            "mainClass": "Exemplo004",
+            "projectName": "TecnicaDeProgramacao--JAVA_890c787"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "TecnicaDeProgramacao--JAVA_890c787"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exemplo002",
+            "request": "launch",
+            "mainClass": "Exemplo002",
+            "projectName": "TecnicaDeProgramacao--JAVA_890c787"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exemplo002Teste",
+            "request": "launch",
+            "mainClass": "Exemplo002Teste",
+            "projectName": "TecnicaDeProgramacao--JAVA_890c787"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploChar",
+            "request": "launch",
+            "mainClass": "ExemploChar",
+            "projectName": "TecnicaDeProgramacao--JAVA_890c787"
+        }
+    ]
+}

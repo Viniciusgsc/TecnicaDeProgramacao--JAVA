@@ -1,3 +1,4 @@
+package Exemplosbasicos;
 public class Exemplo002Teste {
     public static void main(String[] args) {
         Exemplo002 obj = new Exemplo002();
