@@ -45,10 +45,10 @@ public class PessoaFisica {
     }
 
     public String toString(){
-        return "Nome: " + getNome() + "\nEndereco: " + getEndereco() +
-        "\nContato: " + getContato() +
-        "\nDocumento: " + getDocumento() +
-        "\nData de Nascimento: " + getDataNascimento();
+            return "{'Nome': '" + getNome() +"',"+ "\n'Endereco': '" + getEndereco() +"',"+
+        "\n'Contato': '" + getContato()+"',"+
+        "\n'Documento': '" + getDocumento()+"',"+
+        "\n'Data de Nascimento': '" + getDataNascimento()+"',";
     }
     
 }
