@@ -5,6 +5,14 @@ public class Contato {
     private String fixo;
     private String celular;
     
+    public Contato(String string) {
+    }
+    
+    public Contato(String email, String fixo, String celular) {
+        this.setEmail(email);
+        this.setFixo(fixo);
+        this.setCelular(celular);
+    }
     public String getEmail() {
         return email;
     }
@@ -24,6 +32,10 @@ public class Contato {
         this.celular = celular;
     }
     
+    @Override
+    public String toString() {
+        return "{'Email':'" + email + "','Fixo':'" + fixo + "','Celular':'" + celular + "'}";
+    }
   
 
     

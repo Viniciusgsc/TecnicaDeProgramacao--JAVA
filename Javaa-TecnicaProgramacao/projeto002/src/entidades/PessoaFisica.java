@@ -45,10 +45,9 @@ public class PessoaFisica {
     }
 
     public String toString(){
-            return "{'Nome': '" + getNome() +"',"+ "\n'Endereco': '" + getEndereco() +"',"+
-        "\n'Contato': '" + getContato()+"',"+
-        "\n'Documento': '" + getDocumento()+"',"+
-        "\n'Data de Nascimento': '" + getDataNascimento()+"',";
+        return "{'Data':{'Nome':" + getNome() + "'Endereco':'[" + getEndereco() +
+        "]'Documento':'" + getDocumento() +
+        "'Contato':'[" + getContato() + "]},'sucess':'true,'message':'Dados exibidos com sucesso'";
     }
     
 }
