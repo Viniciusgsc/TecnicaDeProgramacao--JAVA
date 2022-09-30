@@ -8,6 +8,9 @@ public class PessoaFisica {
     private Documento documento;
     private Contato contato;
     private LocalDate dataNascimento;
+    private int scoreCredito;
+    private double salario;
+    private String matricula;
     
     public String getNome() {
         return nome;
@@ -31,6 +34,12 @@ public class PessoaFisica {
     public void setDocumento(Documento documento) {
         this.documento = documento;
     }
+    public int getScoreCredito() {
+        return scoreCredito;
+    }
+    public void setScoreCredito(int scoreCredito) {
+        this.scoreCredito = scoreCredito;
+    }
     public Contato getContato() {
         return contato;
     }
@@ -44,9 +53,24 @@ public class PessoaFisica {
         this.dataNascimento = dataNascimento;
     }
 
+    public double getSalario() {
+        return salario;
+    }
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+    public String getMatricula() {
+        return matricula;
+    }
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
     public String toString(){
         return "{'Data':{'Nome':" + getNome() + "'Endereco':'[" + getEndereco() +
         "]'Documento':'" + getDocumento() +
+        "]'Score':'" + getScoreCredito() +
+        "]'Salario':'" + getSalario() +
+        "]'Matricula':'" + getMatricula() +
         "'Contato':'[" + getContato() + "]},'sucess':'true,'message':'Dados exibidos com sucesso'";
     }
     

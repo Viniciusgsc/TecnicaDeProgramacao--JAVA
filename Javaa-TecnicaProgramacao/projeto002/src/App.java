@@ -17,7 +17,7 @@ public class App {
         Contato contatoII = new Contato("antonio58745@gmail.com");
         contatoII.setCelular("(16)8855-9988");
         contatoII.setFixo("(16)744554-7777");
-        contatoII.setEmail("Joaquim58745@gmail.com");
+        contatoII.setEmail("antonio58745@gmail.com");
 
 
         Endereco enderecoII = new Endereco("14406-395");
